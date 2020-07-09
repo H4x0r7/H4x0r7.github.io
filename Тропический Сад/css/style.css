@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+.header {
+  width: 100%;
+  height: 900px;
+  background-color: #ccdef0;
+  background-image: radial-gradient(circle 675px at center, #ffffff 0%, #ccdef0 100%);
+}
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  margin-bottom: 90px;
+}
+.logo {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1;
+}
+.logo span {
+  color: #5abb33;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav__item {
+  margin-right: 50px;
+}
+.nav__item:last-child {
+  margin-right: 0;
+}
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+}
+.nav__link:hover {
+  text-decoration: underline;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-desc {
+  width: 500px;
+  padding-top: 90px;
+}
+.header__title {
+  color: black;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.header__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+.header__btn {
+  display: inline-block;
+  height: 65px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 60px;
+  background-color: #fadb60;
+  background-image: linear-gradient(to top, #ffcc00, #fadb60 100%);
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 65px;
+}
+.header-photo {
+  width: 670px;
+}
+.header__social-item {
+  font-size: 27px;
+  color: #34383c;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.header__social-item:last-child {
+  margin-right: 0;
+}
+.header__social-item:hover {
+  opacity: 0.8;
+}
+.footer {
+  height: 114px;
+  width: 100%;
+  background-color: #232323;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 2;
+}
+.footer::before {
+  content: "123";
+  display: table;
+  color: #232323;
+}
+.footer-text {
+  margin-top: 50px;
+}
+.footer a {
+  color: #fada5a;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
