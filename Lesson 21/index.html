@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Модальное окно</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <button class="btn btn-outline-danger btn-lg" data-toggle="modal" data-target="#my-modal">Удалить файл</button>
+        </div>
+
+        <!-- Модальное окно от Bootstrap -->
+
+        <div class="modal fade" id="my-modal">
+
+            <!-- Само белое окно -->
+
+            <div class="modal-dialog">
+
+                <!-- Содержимое модального окна -->
+
+                <div class="modal-content">
+
+                    <!-- Шапка модального окна -->
+
+                    <div class="modal-header">
+
+                        <!-- Заголовок модального окна -->
+
+                        <h5 class="modal-title" id="exampleModalLabel" style="text-align: center;">Вы действительно хотите удалить файл?</h5>
+
+                        <!-- Кнопка "закрыть" -->
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: 0;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- Тело модального окна -->
+
+                    <p style="text-align: center;">После принятия Вы не сможете отменить действие</p>
+
+                    <!-- Подвал модального окна -->
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Да</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Нет</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
